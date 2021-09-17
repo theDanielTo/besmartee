@@ -1,4 +1,7 @@
 <?php
+/**
+ * XML string built with SimpleXMLElement methods.
+ */
 $xmlString = new SimpleXMLElement("<REQUEST_GROUP></REQUEST_GROUP>");
 $xmlString->addAttribute('MISMOVersionID', '2.3.1');
 

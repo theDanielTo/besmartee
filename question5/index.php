@@ -46,7 +46,7 @@
     const URL = 'http://dev-trinh.besmartee.com/dev-test/api-interview.php'
     $(document).ready(() => {
       $('a').click(e => {
-        const url = e.target.innerHTML;
+        // const url = e.target.innerHTML;
         // $.post('ajax_req.php', {
         //   'creditor': url
         // }, response => {

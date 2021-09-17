@@ -1,4 +1,8 @@
 <?php
+/**
+ * XML POST Request
+ */
+
 $url = 'http://dev-trinh.besmartee.com/dev-test/api-interview.php';
 $origin = 'http://besmarteetechtest';
 
