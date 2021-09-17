@@ -45,27 +45,13 @@
   <script>
     const URL = 'http://dev-trinh.besmartee.com/dev-test/api-interview.php'
     $(document).ready(() => {
-      // $.post(URL);
-
-      // $.ajax({
-      //   url: URL,
-      //   data: 'data',
-      //   headers: {
-      //     'Access-Control-Allow-Origin': 'http://besmarteetechtest'
-      //   },
-      //   dataType: 'json',
-      //   success: data => {
-      //     console.log(data);
-      //   }
-      // })
-
       $('a').click(e => {
         const url = e.target.innerHTML;
-        $.post('ajax_req.php', {
-          'creditor': url
-        }, response => {
-          console.log(response);
-        })
+        // $.post('ajax_req.php', {
+        //   'creditor': url
+        // }, response => {
+        //   console.log(response);
+        // })
         $('#data').removeClass('hidden');
       })
 
@@ -78,7 +64,7 @@
 
 <body>
   <?php
-  // include "post-req.php";
+    // include "post-req.php";
   ?>
   <table class="creditors-table">
     <thead>
@@ -97,7 +83,7 @@
   <button>Close</button>
   <div id="data" class="hidden">
     <?php
-    include "creditor_data.php";
+      include "creditor_data.php";
     ?>
   </div>
 </body>
